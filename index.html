@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>prox2-backup</title>
+<style>
+  body { font: 16px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; max-width: 720px; margin: 40px auto; padding: 0 16px; color: #1f2328; background: #fff; }
+  h1 { font-size: 1.6em; margin-bottom: .2em; }
+  nav a { margin-right: 1em; }
+  .muted { color: #59636e; }
+</style>
+</head>
+<body>
+<h1>prox2-backup</h1>
+<p class="muted">A private backup tool.</p>
+<nav><a href="./">Home</a><a href="privacy.html">Privacy policy</a><a href="terms.html">Terms of service</a></nav>
+
+<p>prox2-backup is a private tool that copies encrypted backups of its owner's own home servers to the owner's own Google Drive.
+It is used by one person, the owner of the GitHub account <strong>tbonesteakboy-code</strong>, and is not offered to anyone else.</p>
+
+<h2>What it does</h2>
+<ul>
+  <li>Once a night, it uploads backup files that are encrypted <em>before</em> they leave the owner's network.</li>
+  <li>It uses Google's <code>drive.file</code> permission, so it can see and manage <strong>only the files it created itself</strong>.
+      It cannot read, list or change any other file in the Drive.</li>
+  <li>It deletes its own backup copies after 7 days.</li>
+</ul>
+
+<p>There is nothing to sign up for. If you are not the owner, this app is not for you, and you should not authorize it.</p>
+</body>
+</html>

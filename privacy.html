@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>prox2-backup privacy</title>
+<style>
+  body { font: 16px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; max-width: 720px; margin: 40px auto; padding: 0 16px; color: #1f2328; background: #fff; }
+  h1 { font-size: 1.6em; margin-bottom: .2em; }
+  nav a { margin-right: 1em; }
+  .muted { color: #59636e; }
+</style>
+</head>
+<body>
+<h1>Privacy policy</h1>
+<p class="muted">prox2-backup. Last updated 8 October 2026.</p>
+<nav><a href="./">Home</a><a href="privacy.html">Privacy policy</a><a href="terms.html">Terms of service</a></nav>
+
+<p>prox2-backup is a private tool used only by its owner to back up the owner's own servers to the owner's own Google Drive.</p>
+
+<h2>What Google data it accesses</h2>
+<p>It requests one Google permission: <code>https://www.googleapis.com/auth/drive.file</code>. With it, the tool can create files and see,
+update and delete <strong>only the files it created</strong>. It cannot see any other file in the Google Drive. It does not request the
+account's name, email, contacts or any other Google data.</p>
+
+<h2>How the data is used</h2>
+<ul>
+  <li>The only data it uploads is the owner's own server backups, encrypted on the owner's equipment before upload.
+      The encryption keys never leave the owner's control.</li>
+  <li>It reads its own backup files back only to verify them or to restore the owner's servers.</li>
+  <li>It deletes its own backup files after 7 days.</li>
+</ul>
+
+<h2>Sharing, selling and storage</h2>
+<p>No data is shared with, sold to or transferred to anyone. There is no other server, analytics or advertising involved. The Google
+access token is stored only on the owner's own equipment.</p>
+
+<h2>Google API Services User Data Policy</h2>
+<p>prox2-backup's use of information received from Google APIs adheres to the
+<a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+
+<h2>Removing access</h2>
+<p>Access can be removed at any time at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</p>
+
+<h2>Contact</h2>
+<p>Questions go to the owner through the GitHub account <a href="https://github.com/tbonesteakboy-code">tbonesteakboy-code</a>.</p>
+</body>
+</html>
